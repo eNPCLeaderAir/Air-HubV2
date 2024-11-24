@@ -1,1 +1,67 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Air-Hub-V2.0 Premium (Last Updated Nov/24/2024)",
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = "Air-Hub-V2 (Premium Version) is loading",
+   LoadingSubtitle = "Just wait a lil bit ",
+   Theme = "DarkBlue", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+
+   ConfigurationSaving = {
+      Enabled = nil,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Air-Hub-V2"
+   },
+
+   Discord = {
+      Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Air-Hub-V2",
+      Subtitle = "Key System",
+      Note = "Join Za discord(Key is ''Adrian'' For now until further notice)",-- Use this to tell the user how to get a key
+      FileName = "Air-Hub-Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Adrian","Air4Ever892189218921892189218921892189218921","Air4ever","8921","758921","7529","7589"} -- List of  that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+Rayfield:Notify({
+   Title = "Air Hub Premuim",
+   Content = "Air Hub Premuim has Loaded",
+   Duration = 6.5,
+   Image = 4483362458,
+})
+
+
+local Tab = Window:CreateTab("Main", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Test Button",
+   Callback = function()
+   Rayfield:Notify({
+   Title = "Air Hub Premuim",
+   Content = "Test has been Tested and i Belive it works",
+   Duration = 6.5,
+   Image = 4483362458,
+})
+    -- The function that takes place when the button is pressed
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Infinite Yeild(Admin Commands)",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+   end,
+})
 
