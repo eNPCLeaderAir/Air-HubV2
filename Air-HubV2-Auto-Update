@@ -65,3 +65,130 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield
    end,
 })
 
+
+
+local Button = Tab:CreateButton({
+   Name = " coco hub",
+   Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/MarsQQ/CocoHub/master/CocoZHub'),true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "MM2 script 1",
+   Callback = function()
+loadstring(game: HttpGet ("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Rivals Good?",
+   Callback = function()
+ local scriptURL = 'https://raw.githubusercontent.com/Sheeshablee73/Scriptss/main/Rivals%20Latest.lua'
+local response = game:HttpGet(scriptURL)
+local executeScript = loadstring(response)
+executeScript()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Slap Battles 1",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua",true))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Brookhaven",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Infinite Yeild(Admin Commands)",
+   Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Rivals 2,
+   Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c691b9aa36fcf84f14659dd7d27fb3e0.lua"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Pop-It Trading",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/SCRIPTHUBV2/main/SCRIPTHUBV2", true))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "?(Key 2ECFB-57BDC-DA4FA-66452-B518B)",
+   Callback = function()
+ getgenv()._Key ="2ECFB-57BDC-DA4FA-66452-B518B"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xenijo/Sleepy/main/Main/Beta.lua"))()
+
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Arsenal 1",
+   Callback = function()
+local scriptURL = 'https://raw.githubusercontent.com/Sheeshablee73/Scriptss/main/Arsenal.lua'
+local response = game:HttpGet(scriptURL)
+local executeScript = loadstring(response)
+executeScript()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Blade Ball 1",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/RedCircleBlock"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Break in 2",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RScriptz/RobloxScripts/main/BreakIn2.lua"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "?2 (cool gui),
+   Callback = function()
+_G. AutoExecuterExe = true
+loadstring (game:HttpGet("https://raw.githubusercontent.com/Giangplay/Script/main/ Execute%20%7C%20UI%20Library.lua"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Rivals skin changer(Key=SILENT-HUB-IDontLikeRivalsUpdates)",
+   Callback = function()
+loadstring (game:HttpGet("https://raw.githubusercontent.com/KxGOATESQUE/SilentRivals/main/SilentRivals"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Rivals 3?(NEEDS KEY)",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/venoxhh/universalscripts/main/rivals/venoxware'))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Trident Survival 1",
+   Callback = function()
+loadstring(game:HttpGet('https://pastefy.app/DVvklfFg/raw'))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Trident Survival 2",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zalg0231/load/main/load"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Pets Go/Banana Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/PETS-GO!-NEW-UPDATED-KEYLESS-SCRIPT-BANANA-HUB-21033"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Fisch(Keyless)",
+   Callback = function()
+loadstring(game:HttpGet("https://you.whimper.xyz/sources/rb/fisch.lua"))()
+   end,
+})
