@@ -49,7 +49,7 @@ local Button = Tab:CreateButton({
    Callback = function()
    Rayfield:Notify({
    Title = "Air Hub Premuim",
-   Content = "Test has been Tested and i Belive it works",
+   Content = "Test has been Tested and it works, I think",
    Duration = 6.5,
    Image = 4483362458,
 })
